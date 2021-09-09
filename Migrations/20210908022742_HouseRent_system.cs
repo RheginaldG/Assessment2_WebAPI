@@ -93,14 +93,14 @@ namespace Assessment2_WebAPI.Migrations
                 table: "Rent_Details",
                 column: "Rent_HousesId");
 
-            var sqlagent = Path.Combine(".\\Database", @"RentADB.sql");
-            migrationBuilder.Sql(File.ReadAllText(sqlagent));
+            //var sqlagent = Path.Combine(".\\Database", @"RentADB.sql");
+            //migrationBuilder.Sql(File.ReadAllText(sqlagent));
 
-            var sqlhouse = Path.Combine(".\\Database", @"RentHDB.sql");
-            migrationBuilder.Sql(File.ReadAllText(sqlhouse));
+            //var sqlhouse = Path.Combine(".\\Database", @"RentHDB.sql");
+            //migrationBuilder.Sql(File.ReadAllText(sqlhouse));
 
-            var sqldetails = Path.Combine(".\\Database", @"RentDDB.sql");
-            migrationBuilder.Sql(File.ReadAllText(sqldetails));
+            //var sqldetails = Path.Combine(".\\Database", @"RentDDB.sql");
+            //migrationBuilder.Sql(File.ReadAllText(sqldetails));
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
