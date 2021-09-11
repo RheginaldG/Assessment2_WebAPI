@@ -1,0 +1,1 @@
+﻿INSERT INTO [dbo].[Customer_User] ([Cust_Username], [Cust_Password], [Cust_Fname], [Cust_Lname], [Cust_Phone], [Cust_Address], [Cust_Country]) VALUES (N'rhegie', N'123456', N'Rheginald', N'Gregorio', N'0272808522', N'Victoria Street &, Federal Street, Auckland CBD, Auckland 1010', N'New Zealand')

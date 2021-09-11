@@ -101,6 +101,9 @@ namespace Assessment2_WebAPI.Migrations
 
             var sqldetails = Path.Combine(".\\Database", @"RentDDB.sql");
             migrationBuilder.Sql(File.ReadAllText(sqldetails));
+
+            var sqlcust = Path.Combine(".\\Database", @"RentCDB.sql");
+            migrationBuilder.Sql(File.ReadAllText(sqlcust));
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
